@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="targets_tutorial_files/libs/clipboard/clipboard.min.js"></script>
-<script src="targets_tutorial_files/libs/quarto-html/tabby.min.js"></script>
-<script src="targets_tutorial_files/libs/quarto-html/popper.min.js"></script>
-<script src="targets_tutorial_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="targets_tutorial_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="targets_tutorial_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="targets_tutorial_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="targets_tutorial_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/tabby.min.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Егор Глушков DTwin">
@@ -16,8 +16,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="targets_tutorial_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="targets_tutorial_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -96,11 +96,11 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="targets_tutorial_files/libs/revealjs/dist/theme/quarto.css">
-  <link href="targets_tutorial_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="targets_tutorial_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="targets_tutorial_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="targets_tutorial_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
+  <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -499,133 +499,133 @@
 <section id="файл-_targets.r-22" class="slide level2">
 <h2>Файл _targets.R [2/2]</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="fu">source</span>(<span class="st">"01.Targets/01.Libraries.R"</span>)</span>
-<span id="cb1-2"><a href=""></a><span class="fu">source</span>(<span class="st">"01.Targets/02.Functions.R"</span>)</span>
-<span id="cb1-3"><a href=""></a><span class="fu">source</span>(<span class="st">"01.Targets/03.List_of_targets.R"</span>)</span>
-<span id="cb1-4"><a href=""></a></span>
-<span id="cb1-5"><a href=""></a></span>
-<span id="cb1-6"><a href=""></a><span class="fu">tar_option_set</span>(<span class="at">format =</span> <span class="st">"qs"</span>)</span>
-<span id="cb1-7"><a href=""></a><span class="fu">tar_config_set</span>(<span class="at">script =</span> <span class="st">"_targets.R"</span>, <span class="at">store =</span> <span class="st">"_targets"</span>)</span>
-<span id="cb1-8"><a href=""></a></span>
-<span id="cb1-9"><a href=""></a></span>
-<span id="cb1-10"><a href=""></a><span class="fu">list</span>(</span>
-<span id="cb1-11"><a href=""></a>  data_targets,</span>
-<span id="cb1-12"><a href=""></a>  ANOVA_targets,</span>
-<span id="cb1-13"><a href=""></a>  PCA_targets</span>
-<span id="cb1-14"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">source</span>(<span class="st">"01.Targets/01.Libraries.R"</span>)</span>
+<span id="cb1-2"><a></a><span class="fu">source</span>(<span class="st">"01.Targets/02.Functions.R"</span>)</span>
+<span id="cb1-3"><a></a><span class="fu">source</span>(<span class="st">"01.Targets/03.List_of_targets.R"</span>)</span>
+<span id="cb1-4"><a></a></span>
+<span id="cb1-5"><a></a></span>
+<span id="cb1-6"><a></a><span class="fu">tar_option_set</span>(<span class="at">format =</span> <span class="st">"qs"</span>)</span>
+<span id="cb1-7"><a></a><span class="fu">tar_config_set</span>(<span class="at">script =</span> <span class="st">"_targets.R"</span>, <span class="at">store =</span> <span class="st">"_targets"</span>)</span>
+<span id="cb1-8"><a></a></span>
+<span id="cb1-9"><a></a></span>
+<span id="cb1-10"><a></a><span class="fu">list</span>(</span>
+<span id="cb1-11"><a></a>  data_targets,</span>
+<span id="cb1-12"><a></a>  ANOVA_targets,</span>
+<span id="cb1-13"><a></a>  PCA_targets</span>
+<span id="cb1-14"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="файл-03.list_of_targets.r-12" class="slide level2">
 <h2>Файл 03.List_of_targets.R [1/2]</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a>PCA_targets <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb2-2"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model,</span>
-<span id="cb2-3"><a href=""></a>             <span class="fu">calculate_PCA_model</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data, <span class="at">scale =</span> <span class="cn">TRUE</span>)),</span>
-<span id="cb2-4"><a href=""></a></span>
-<span id="cb2-5"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">2.</span>PCA_summary,</span>
-<span id="cb2-6"><a href=""></a>             <span class="fu">pca_summary</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model)),</span>
-<span id="cb2-7"><a href=""></a></span>
-<span id="cb2-8"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">3.</span>PCA_loadings,</span>
-<span id="cb2-9"><a href=""></a>             <span class="fu">pca_loadings</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model)),</span>
-<span id="cb2-10"><a href=""></a></span>
-<span id="cb2-11"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">4.</span>PCA_plot,</span>
-<span id="cb2-12"><a href=""></a>             <span class="fu">plot_to_pdf</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model, <span class="st">"PCA_components"</span>)),</span>
-<span id="cb2-13"><a href=""></a></span>
-<span id="cb2-14"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">5.</span>PCA_less_dim,</span>
-<span id="cb2-15"><a href=""></a>             <span class="fu">pca_plot_lesser_dim</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data, <span class="st">"Species"</span>))</span>
-<span id="cb2-16"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>PCA_targets <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb2-2"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model,</span>
+<span id="cb2-3"><a></a>             <span class="fu">calculate_PCA_model</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data, <span class="at">scale =</span> <span class="cn">TRUE</span>)),</span>
+<span id="cb2-4"><a></a></span>
+<span id="cb2-5"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">2.</span>PCA_summary,</span>
+<span id="cb2-6"><a></a>             <span class="fu">pca_summary</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model)),</span>
+<span id="cb2-7"><a></a></span>
+<span id="cb2-8"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">3.</span>PCA_loadings,</span>
+<span id="cb2-9"><a></a>             <span class="fu">pca_loadings</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model)),</span>
+<span id="cb2-10"><a></a></span>
+<span id="cb2-11"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">4.</span>PCA_plot,</span>
+<span id="cb2-12"><a></a>             <span class="fu">plot_to_pdf</span>(DT.<span class="dv">03</span>.<span class="fl">1.</span>PCA_model, <span class="st">"PCA_components"</span>)),</span>
+<span id="cb2-13"><a></a></span>
+<span id="cb2-14"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">03</span>.<span class="fl">5.</span>PCA_less_dim,</span>
+<span id="cb2-15"><a></a>             <span class="fu">pca_plot_lesser_dim</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data, <span class="st">"Species"</span>))</span>
+<span id="cb2-16"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="файл-03.list_of_targets.r-22" class="slide level2">
 <h2>Файл 03.List_of_targets.R [2/2]</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a>data_targets <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb3-2"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data,</span>
-<span id="cb3-3"><a href=""></a>             <span class="fu">get_data</span>(<span class="at">data =</span> iris, <span class="at">slice_n =</span> <span class="cn">NULL</span>)),</span>
-<span id="cb3-4"><a href=""></a></span>
-<span id="cb3-5"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">01</span>.<span class="fl">2.</span>Plot_pairs,</span>
-<span id="cb3-6"><a href=""></a>             <span class="fu">plot_pairs</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data))</span>
-<span id="cb3-7"><a href=""></a>)</span>
-<span id="cb3-8"><a href=""></a></span>
-<span id="cb3-9"><a href=""></a></span>
-<span id="cb3-10"><a href=""></a>ANOVA_targets <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
-<span id="cb3-11"><a href=""></a>  <span class="fu">tar_target</span>(DT.<span class="dv">02</span>.<span class="fl">1.</span>ANOVA_model,</span>
-<span id="cb3-12"><a href=""></a>             <span class="fu">calculate_anova_model</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data))</span>
-<span id="cb3-13"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a>data_targets <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb3-2"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data,</span>
+<span id="cb3-3"><a></a>             <span class="fu">get_data</span>(<span class="at">data =</span> iris, <span class="at">slice_n =</span> <span class="cn">NULL</span>)),</span>
+<span id="cb3-4"><a></a></span>
+<span id="cb3-5"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">01</span>.<span class="fl">2.</span>Plot_pairs,</span>
+<span id="cb3-6"><a></a>             <span class="fu">plot_pairs</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data))</span>
+<span id="cb3-7"><a></a>)</span>
+<span id="cb3-8"><a></a></span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a>ANOVA_targets <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<span id="cb3-11"><a></a>  <span class="fu">tar_target</span>(DT.<span class="dv">02</span>.<span class="fl">1.</span>ANOVA_model,</span>
+<span id="cb3-12"><a></a>             <span class="fu">calculate_anova_model</span>(DT.<span class="dv">01</span>.<span class="fl">1.</span>Get_data))</span>
+<span id="cb3-13"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="файл-02.functions.r-12" class="slide level2">
 <h2>Файл 02.Functions.R [1/2]</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a><span class="co"># 1. Getting data           ####</span></span>
-<span id="cb4-2"><a href=""></a>get_data <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">data =</span> iris, <span class="at">slice_n =</span> <span class="cn">NULL</span>) {</span>
-<span id="cb4-3"><a href=""></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(slice_n)) {</span>
-<span id="cb4-4"><a href=""></a>    <span class="fu">return</span>(data[slice_n,])</span>
-<span id="cb4-5"><a href=""></a>  } <span class="cf">else</span> {</span>
-<span id="cb4-6"><a href=""></a>    <span class="fu">return</span>(data)</span>
-<span id="cb4-7"><a href=""></a>  }</span>
-<span id="cb4-8"><a href=""></a>}</span>
-<span id="cb4-9"><a href=""></a></span>
-<span id="cb4-10"><a href=""></a></span>
-<span id="cb4-11"><a href=""></a><span class="co"># 2. Models                 ####</span></span>
-<span id="cb4-12"><a href=""></a><span class="co"># 2.1 ANOVA model           ####</span></span>
-<span id="cb4-13"><a href=""></a>calculate_anova_model <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">data_ =</span> iris) {</span>
-<span id="cb4-14"><a href=""></a>  r <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">lm</span>(data_[, <span class="dv">1</span>] <span class="sc">~</span> ., <span class="at">data =</span> data_[<span class="sc">-</span><span class="dv">1</span>]))</span>
-<span id="cb4-15"><a href=""></a>  <span class="fu">return</span>(<span class="fu">summary</span>(r))</span>
-<span id="cb4-16"><a href=""></a>}</span>
-<span id="cb4-17"><a href=""></a></span>
-<span id="cb4-18"><a href=""></a></span>
-<span id="cb4-19"><a href=""></a><span class="co"># 2.2 PCA model             ####</span></span>
-<span id="cb4-20"><a href=""></a>calculate_PCA_model <span class="ot">&lt;-</span> <span class="cf">function</span>(data_, <span class="at">scale =</span> <span class="cn">TRUE</span>) {</span>
-<span id="cb4-21"><a href=""></a>  pca_data <span class="ot">&lt;-</span> data_ <span class="sc">%&gt;%</span></span>
-<span id="cb4-22"><a href=""></a>    <span class="fu">as.data.table</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb4-23"><a href=""></a>    <span class="fu">copy</span>()</span>
-<span id="cb4-24"><a href=""></a>  pca_data <span class="ot">&lt;-</span> <span class="cf">if</span> (scale) {</span>
-<span id="cb4-25"><a href=""></a>    pca_data[, <span class="fu">scale</span>(.SD), .SDcols <span class="ot">=</span> is.numeric]</span>
-<span id="cb4-26"><a href=""></a>  } <span class="cf">else</span> {</span>
-<span id="cb4-27"><a href=""></a>    pca_data[, .SD, .SDcols <span class="ot">=</span> is.numeric]</span>
-<span id="cb4-28"><a href=""></a>  }</span>
-<span id="cb4-29"><a href=""></a>  <span class="fu">return</span>(pca_data <span class="sc">%&gt;%</span> <span class="fu">princomp</span>())</span>
-<span id="cb4-30"><a href=""></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="co"># 1. Getting data           ####</span></span>
+<span id="cb4-2"><a></a>get_data <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">data =</span> iris, <span class="at">slice_n =</span> <span class="cn">NULL</span>) {</span>
+<span id="cb4-3"><a></a>  <span class="cf">if</span> (<span class="sc">!</span><span class="fu">is.null</span>(slice_n)) {</span>
+<span id="cb4-4"><a></a>    <span class="fu">return</span>(data[slice_n,])</span>
+<span id="cb4-5"><a></a>  } <span class="cf">else</span> {</span>
+<span id="cb4-6"><a></a>    <span class="fu">return</span>(data)</span>
+<span id="cb4-7"><a></a>  }</span>
+<span id="cb4-8"><a></a>}</span>
+<span id="cb4-9"><a></a></span>
+<span id="cb4-10"><a></a></span>
+<span id="cb4-11"><a></a><span class="co"># 2. Models                 ####</span></span>
+<span id="cb4-12"><a></a><span class="co"># 2.1 ANOVA model           ####</span></span>
+<span id="cb4-13"><a></a>calculate_anova_model <span class="ot">&lt;-</span> <span class="cf">function</span>(<span class="at">data_ =</span> iris) {</span>
+<span id="cb4-14"><a></a>  r <span class="ot">&lt;-</span> <span class="fu">aov</span>(<span class="fu">lm</span>(data_[, <span class="dv">1</span>] <span class="sc">~</span> ., <span class="at">data =</span> data_[<span class="sc">-</span><span class="dv">1</span>]))</span>
+<span id="cb4-15"><a></a>  <span class="fu">return</span>(<span class="fu">summary</span>(r))</span>
+<span id="cb4-16"><a></a>}</span>
+<span id="cb4-17"><a></a></span>
+<span id="cb4-18"><a></a></span>
+<span id="cb4-19"><a></a><span class="co"># 2.2 PCA model             ####</span></span>
+<span id="cb4-20"><a></a>calculate_PCA_model <span class="ot">&lt;-</span> <span class="cf">function</span>(data_, <span class="at">scale =</span> <span class="cn">TRUE</span>) {</span>
+<span id="cb4-21"><a></a>  pca_data <span class="ot">&lt;-</span> data_ <span class="sc">%&gt;%</span></span>
+<span id="cb4-22"><a></a>    <span class="fu">as.data.table</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb4-23"><a></a>    <span class="fu">copy</span>()</span>
+<span id="cb4-24"><a></a>  pca_data <span class="ot">&lt;-</span> <span class="cf">if</span> (scale) {</span>
+<span id="cb4-25"><a></a>    pca_data[, <span class="fu">scale</span>(.SD), .SDcols <span class="ot">=</span> is.numeric]</span>
+<span id="cb4-26"><a></a>  } <span class="cf">else</span> {</span>
+<span id="cb4-27"><a></a>    pca_data[, .SD, .SDcols <span class="ot">=</span> is.numeric]</span>
+<span id="cb4-28"><a></a>  }</span>
+<span id="cb4-29"><a></a>  <span class="fu">return</span>(pca_data <span class="sc">%&gt;%</span> <span class="fu">princomp</span>())</span>
+<span id="cb4-30"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="файл-02.functions.r-12-1" class="slide level2">
 <h2>Файл 02.Functions.R [1/2]</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a>pca_summary <span class="ot">&lt;-</span> \(pca_res) pca_res <span class="sc">%&gt;%</span> <span class="fu">summary</span>()</span>
-<span id="cb5-2"><a href=""></a>pca_loadings <span class="ot">&lt;-</span> \(pca_res) pca_res <span class="sc">%&gt;%</span> <span class="fu">loadings</span>()</span>
-<span id="cb5-3"><a href=""></a></span>
-<span id="cb5-4"><a href=""></a>plot_to_pdf <span class="ot">&lt;-</span> <span class="cf">function</span>(pca_res, <span class="at">file_name =</span> <span class="st">"my_plot"</span>) {</span>
-<span id="cb5-5"><a href=""></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(<span class="st">"02.Outputs/"</span>, file_name, <span class="st">".pdf"</span>))</span>
-<span id="cb5-6"><a href=""></a>  pca_res <span class="sc">%&gt;%</span> <span class="fu">plot</span>()</span>
-<span id="cb5-7"><a href=""></a>  <span class="fu">dev.off</span>()</span>
-<span id="cb5-8"><a href=""></a>  <span class="fu">return</span>(<span class="fu">invisible</span>(<span class="cn">NULL</span>))</span>
-<span id="cb5-9"><a href=""></a>}</span>
-<span id="cb5-10"><a href=""></a></span>
-<span id="cb5-11"><a href=""></a></span>
-<span id="cb5-12"><a href=""></a><span class="co"># 2.3 Another PCA model      ####</span></span>
-<span id="cb5-13"><a href=""></a>pca_plot_lesser_dim <span class="ot">&lt;-</span> <span class="cf">function</span>(data_, factor_var, <span class="at">file_name =</span> <span class="st">"PCA_less_dim"</span>) {</span>
-<span id="cb5-14"><a href=""></a>  pca_res <span class="ot">&lt;-</span> data_ <span class="sc">%&gt;%</span></span>
-<span id="cb5-15"><a href=""></a>    <span class="fu">as.data.table</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb5-16"><a href=""></a>    <span class="fu">copy</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb5-17"><a href=""></a>    .[, <span class="fu">scale</span>(.SD), .SDcols <span class="ot">=</span> is.numeric] <span class="sc">%&gt;%</span></span>
-<span id="cb5-18"><a href=""></a>    ade4<span class="sc">::</span><span class="fu">dudi.pca</span>(<span class="at">scannf=</span><span class="cn">FALSE</span>)</span>
-<span id="cb5-19"><a href=""></a></span>
-<span id="cb5-20"><a href=""></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(<span class="st">"02.Outputs/"</span>, file_name, <span class="st">".pdf"</span>))</span>
-<span id="cb5-21"><a href=""></a>  ade4<span class="sc">::</span><span class="fu">s.class</span>(pca_res<span class="sc">$</span>li, data_[, factor_var])</span>
-<span id="cb5-22"><a href=""></a>  <span class="fu">dev.off</span>()</span>
-<span id="cb5-23"><a href=""></a></span>
-<span id="cb5-24"><a href=""></a>  <span class="fu">return</span>(<span class="fu">invisible</span>(<span class="cn">NULL</span>))</span>
-<span id="cb5-25"><a href=""></a>}</span>
-<span id="cb5-26"><a href=""></a></span>
-<span id="cb5-27"><a href=""></a></span>
-<span id="cb5-28"><a href=""></a><span class="co"># 2.4 Another plot functions        ####</span></span>
-<span id="cb5-29"><a href=""></a>plot_pairs <span class="ot">&lt;-</span> \(data_, <span class="at">file_name =</span> <span class="st">"pairs_plot"</span>) {</span>
-<span id="cb5-30"><a href=""></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(<span class="st">"02.Outputs/"</span>, file_name, <span class="st">".pdf"</span>))</span>
-<span id="cb5-31"><a href=""></a>  data_ <span class="sc">%&gt;%</span> <span class="fu">pairs</span>()</span>
-<span id="cb5-32"><a href=""></a>  <span class="fu">dev.off</span>()</span>
-<span id="cb5-33"><a href=""></a>  <span class="fu">return</span>(<span class="fu">invisible</span>(<span class="cn">NULL</span>))</span>
-<span id="cb5-34"><a href=""></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>pca_summary <span class="ot">&lt;-</span> \(pca_res) pca_res <span class="sc">%&gt;%</span> <span class="fu">summary</span>()</span>
+<span id="cb5-2"><a></a>pca_loadings <span class="ot">&lt;-</span> \(pca_res) pca_res <span class="sc">%&gt;%</span> <span class="fu">loadings</span>()</span>
+<span id="cb5-3"><a></a></span>
+<span id="cb5-4"><a></a>plot_to_pdf <span class="ot">&lt;-</span> <span class="cf">function</span>(pca_res, <span class="at">file_name =</span> <span class="st">"my_plot"</span>) {</span>
+<span id="cb5-5"><a></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(<span class="st">"02.Outputs/"</span>, file_name, <span class="st">".pdf"</span>))</span>
+<span id="cb5-6"><a></a>  pca_res <span class="sc">%&gt;%</span> <span class="fu">plot</span>()</span>
+<span id="cb5-7"><a></a>  <span class="fu">dev.off</span>()</span>
+<span id="cb5-8"><a></a>  <span class="fu">return</span>(<span class="fu">invisible</span>(<span class="cn">NULL</span>))</span>
+<span id="cb5-9"><a></a>}</span>
+<span id="cb5-10"><a></a></span>
+<span id="cb5-11"><a></a></span>
+<span id="cb5-12"><a></a><span class="co"># 2.3 Another PCA model      ####</span></span>
+<span id="cb5-13"><a></a>pca_plot_lesser_dim <span class="ot">&lt;-</span> <span class="cf">function</span>(data_, factor_var, <span class="at">file_name =</span> <span class="st">"PCA_less_dim"</span>) {</span>
+<span id="cb5-14"><a></a>  pca_res <span class="ot">&lt;-</span> data_ <span class="sc">%&gt;%</span></span>
+<span id="cb5-15"><a></a>    <span class="fu">as.data.table</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-16"><a></a>    <span class="fu">copy</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-17"><a></a>    .[, <span class="fu">scale</span>(.SD), .SDcols <span class="ot">=</span> is.numeric] <span class="sc">%&gt;%</span></span>
+<span id="cb5-18"><a></a>    ade4<span class="sc">::</span><span class="fu">dudi.pca</span>(<span class="at">scannf=</span><span class="cn">FALSE</span>)</span>
+<span id="cb5-19"><a></a></span>
+<span id="cb5-20"><a></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(<span class="st">"02.Outputs/"</span>, file_name, <span class="st">".pdf"</span>))</span>
+<span id="cb5-21"><a></a>  ade4<span class="sc">::</span><span class="fu">s.class</span>(pca_res<span class="sc">$</span>li, data_[, factor_var])</span>
+<span id="cb5-22"><a></a>  <span class="fu">dev.off</span>()</span>
+<span id="cb5-23"><a></a></span>
+<span id="cb5-24"><a></a>  <span class="fu">return</span>(<span class="fu">invisible</span>(<span class="cn">NULL</span>))</span>
+<span id="cb5-25"><a></a>}</span>
+<span id="cb5-26"><a></a></span>
+<span id="cb5-27"><a></a></span>
+<span id="cb5-28"><a></a><span class="co"># 2.4 Another plot functions        ####</span></span>
+<span id="cb5-29"><a></a>plot_pairs <span class="ot">&lt;-</span> \(data_, <span class="at">file_name =</span> <span class="st">"pairs_plot"</span>) {</span>
+<span id="cb5-30"><a></a>  <span class="fu">pdf</span>(<span class="fu">paste0</span>(<span class="st">"02.Outputs/"</span>, file_name, <span class="st">".pdf"</span>))</span>
+<span id="cb5-31"><a></a>  data_ <span class="sc">%&gt;%</span> <span class="fu">pairs</span>()</span>
+<span id="cb5-32"><a></a>  <span class="fu">dev.off</span>()</span>
+<span id="cb5-33"><a></a>  <span class="fu">return</span>(<span class="fu">invisible</span>(<span class="cn">NULL</span>))</span>
+<span id="cb5-34"><a></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="команды-tar_manifest" class="slide level2">
@@ -633,7 +633,7 @@
 <ul>
 <li><p><code>tar_manifest()</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href=""></a><span class="fu">tar_manifest</span>(<span class="at">fields =</span> <span class="fu">all_of</span>(<span class="st">"command"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">tar_manifest</span>(<span class="at">fields =</span> <span class="fu">all_of</span>(<span class="st">"command"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <pre><code># A tibble: 8 × 2
   name                 command                                              
@@ -688,19 +688,19 @@
 <ul>
 <li><p><code>tar_cue()</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href=""></a><span class="fu">tar_target</span>(DT.<span class="fl">01.</span>Download_target, <span class="fu">download_data</span>(), <span class="at">cue =</span> <span class="fu">tar_cue</span>(<span class="at">mode =</span> <span class="st">"always"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">tar_target</span>(DT.<span class="fl">01.</span>Download_target, <span class="fu">download_data</span>(), <span class="at">cue =</span> <span class="fu">tar_cue</span>(<span class="at">mode =</span> <span class="st">"always"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href=""></a><span class="fu">tar_cue</span>(</span>
-<span id="cb11-2"><a href=""></a>  <span class="at">mode =</span> <span class="fu">c</span>(<span class="st">"thorough"</span>, <span class="st">"always"</span>, <span class="st">"never"</span>),</span>
-<span id="cb11-3"><a href=""></a>  <span class="at">command =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb11-4"><a href=""></a>  <span class="at">depend =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb11-5"><a href=""></a>  <span class="at">format =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb11-6"><a href=""></a>  <span class="at">repository =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb11-7"><a href=""></a>  <span class="at">iteration =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb11-8"><a href=""></a>  <span class="at">file =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb11-9"><a href=""></a>  <span class="at">seed =</span> <span class="cn">TRUE</span></span>
-<span id="cb11-10"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">tar_cue</span>(</span>
+<span id="cb11-2"><a></a>  <span class="at">mode =</span> <span class="fu">c</span>(<span class="st">"thorough"</span>, <span class="st">"always"</span>, <span class="st">"never"</span>),</span>
+<span id="cb11-3"><a></a>  <span class="at">command =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-4"><a></a>  <span class="at">depend =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-5"><a></a>  <span class="at">format =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-6"><a></a>  <span class="at">repository =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-7"><a></a>  <span class="at">iteration =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-8"><a></a>  <span class="at">file =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb11-9"><a></a>  <span class="at">seed =</span> <span class="cn">TRUE</span></span>
+<span id="cb11-10"><a></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></li>
 <li><p>Cue mode. If&nbsp;<code>"thorough"</code>, all the cues apply unless individually suppressed. If&nbsp;<code>"always"</code>, then the target always runs. If&nbsp;<code>"never"</code>, then the target does not run unless the metadata does not exist or the last run errored.</p></li>
 </ul>
@@ -868,6 +868,7 @@
 <li><p>указание <em>(можно комментарием в коде)</em>, где лежит результат применения модели и как эти данные можно прочитать</p></li>
 </ul></li>
 </ul>
+
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
@@ -879,19 +880,19 @@
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="targets_tutorial_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="site_libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="targets_tutorial_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="targets_tutorial_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="targets_tutorial_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
